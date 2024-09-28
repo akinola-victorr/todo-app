@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  margin-top: 20px;
+  &__pending {
+    color: grey;
+    flex-grow: 1;
+    font-size: 20px;
+  }
+  &__clear {
+    background-color: #8f4de6;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px;
+  }
+}
